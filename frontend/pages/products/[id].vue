@@ -24,6 +24,7 @@
           :data-item-image="`${getMedia(product.image.formats.thumbnail.url)}`"
           :data-item-name="product.title"
           v-bind="customFields"
+          @click="nbItems++"
         >
           Add to cart
         </button>
@@ -55,4 +56,5 @@
 const route = useRoute();
 const { product, error, customFields } = await useProductById();
 const { getMedia } = useGetMedia();
+const nbItems = useCart();
 </script>
