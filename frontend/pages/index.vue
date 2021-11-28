@@ -8,4 +8,10 @@ const config = useRuntimeConfig();
 const { data, error } = await useAsyncData("products", () =>
   fetch(`${config.STORE_URL}/products`).then((response) => response.json())
 );
+
+const { $consola } = useNuxtApp();
+
+if ($consola) {
+  $consola("Setup index.vue");
+}
 </script>
