@@ -22,8 +22,10 @@
       <Link rel="preconnect" href="https://app.snipcart.com" />
       <Link rel="preconnect" href="https://cdn.snipcart.com" />
       <Link
-        rel="stylesheet"
+        rel="preload"
+        as="style"
         href="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.css"
+        onload="this.onload=null;this.rel='stylesheet'"
       />
       <Script src="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.js" defer />
     </Body>
