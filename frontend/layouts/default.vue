@@ -2,6 +2,13 @@
   <Html lang="fr-FR">
     <Head>
       <Title>Buy stickers with Strapi, Nuxt.js and Snipcart</Title>
+      <Link rel="preconnect" href="https://app.snipcart.com" />
+      <Link rel="preconnect" href="https://cdn.snipcart.com" />
+      <Link
+        rel="stylesheet"
+        href="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.css"
+      />
+      <Script src="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.js" />
     </Head>
   </Html>
   <div class="flex justify-center bg-gray-200">
