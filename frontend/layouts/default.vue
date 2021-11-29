@@ -8,7 +8,7 @@
         rel="stylesheet"
         href="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.css"
       />
-      <Script src="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.js" />
+      <Script src="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.js" defer />
     </Head>
   </Html>
   <div class="flex justify-center bg-gray-200">
