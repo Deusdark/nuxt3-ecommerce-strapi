@@ -17,6 +17,7 @@
             <img
               class="crop mx-auto"
               :src="`${getMedia(product.image.formats.thumbnail.url)}`"
+              :alt="product.title"
             />
           </div>
           <div class="pl-4 pr-4 pb-4 pt-4 rounded-lg">

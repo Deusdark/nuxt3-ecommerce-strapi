@@ -2,7 +2,13 @@
   <div class="flex justify-between ml-6 mr-6 mt-4">
     <nuxt-link to="/">
       <span class="emoji">
-        <img src="~/assets/strapi.png" class="logo" height="150" width="150" />
+        <img
+          src="~/assets/strapi.png"
+          class="logo"
+          alt="strapi-logo"
+          height="150"
+          width="150"
+        />
       </span>
     </nuxt-link>
 

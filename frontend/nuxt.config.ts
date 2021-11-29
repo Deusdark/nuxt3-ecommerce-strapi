@@ -18,4 +18,43 @@ export default defineNuxtConfig({
       },
     },
   },
+  meta: {
+    meta: [
+      {
+        charset: "utf-8",
+      },
+      {
+        name: "viewport",
+        content: "width=device-width, initial-scale=2",
+      },
+      {
+        name: "description",
+        content: "e-commerce starter using Strapi, Nuxt.js and Snipcart",
+      },
+    ],
+    link: [
+      {
+        rel: "preconnect",
+        href: "https://app.snipcart.com",
+      },
+      {
+        rel: "preconnect",
+        href: "https://cdn.snipcart.com",
+      },
+      {
+        rel: "stylesheet",
+        href: "https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.css",
+      },
+      {
+        rel: "icon",
+        type: "image/x-icon",
+        href: "/favicon.ico",
+      },
+    ],
+    script: [
+      {
+        src: "https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.js",
+      },
+    ],
+  },
 });

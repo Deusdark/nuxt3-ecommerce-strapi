@@ -1,5 +1,10 @@
 <template>
   <div v-if="product">
+    <Html>
+      <Head>
+        <Title>stickers {{ product.title }}</Title>
+      </Head>
+    </Html>
     <div
       class="m-6 mt-56 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 mt-8"
     >

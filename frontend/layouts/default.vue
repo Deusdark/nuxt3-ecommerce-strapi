@@ -1,4 +1,9 @@
 <template>
+  <Html lang="fr-FR">
+    <Head>
+      <Title>Buy stickers with Strapi, Nuxt.js and Snipcart</Title>
+    </Head>
+  </Html>
   <div class="flex justify-center bg-gray-200">
     <div class="max-w-screen-lg flex flex-col min-h-screen w-full">
       <Navbar />
@@ -15,3 +20,14 @@
     ></div>
   </div>
 </template>
+
+<script setup>
+const meta = useMeta({
+  meta: [
+    {
+      name: "description",
+      content: "e-commerce starter using Strapi, Nuxt.js and Snipcart",
+    },
+  ],
+});
+</script>
