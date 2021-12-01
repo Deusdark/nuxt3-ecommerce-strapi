@@ -19,15 +19,6 @@
           data-api-key="ODhhNWUxOGEtNTk0OC00OTQwLWJkOWMtM2M1ZmNjODU1ZDJhNjM3MzMyNzM0NjM1OTMyNjcz"
         ></div>
       </div>
-      <Link rel="preconnect" href="https://app.snipcart.com" />
-      <Link rel="preconnect" href="https://cdn.snipcart.com" />
-      <Link
-        rel="preload"
-        as="style"
-        href="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.css"
-        onload="this.onload=null;this.rel='stylesheet'"
-      />
-      <Script src="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.js" defer />
     </Body>
   </Html>
 </template>
