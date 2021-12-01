@@ -15,6 +15,14 @@
         </nuxt-link>
       </div>
     </div>
+    <div class="container flex flex-wrap mx-auto ml-4 mr-6 mt-8">
+      <nuxt-link
+        to="/api-test"
+        class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 ml-2 border border-gray-400 rounded shadow"
+      >
+        API samples
+      </nuxt-link>
+    </div>
   </div>
 </template>
 
