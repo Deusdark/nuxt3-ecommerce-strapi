@@ -6,9 +6,7 @@
 const config = useRuntimeConfig();
 const route = useRoute();
 
-const { data, error } = await useAsyncData("categories", () =>
-  fetch(`${config.STORE_URL}/categories/${route.params.id}`).then((response) =>
-    response.json()
-  )
+const { data, error } = await useAsyncData(`categories/${route.params.id}`, () =>
+  $fetch(`${config.STORE_URL}/categories/${route.params.id}`)
 );
 </script>

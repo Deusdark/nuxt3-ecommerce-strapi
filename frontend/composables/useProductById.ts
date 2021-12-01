@@ -2,10 +2,8 @@ export const useProductById = async () => {
   const config = useRuntimeConfig();
   const route = useRoute();
 
-  const { data, error } = await useAsyncData("products_by_id", () =>
-    fetch(`${config.STORE_URL}/products/${route.params.id}`).then((response) =>
-      response.json()
-    )
+  const { data, error } = await useFetch(
+    `${config.STORE_URL}/products/${route.params.id}`
   );
   const product = data;
 
